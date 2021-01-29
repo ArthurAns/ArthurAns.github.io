@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<!-- Google Tag Manager -->
+  <!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-PR477VK');</script>
+	})(window,document,'script','dataLayer','GTM-XXXX');</script>
 	<!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Host Awards</title>
+    <title>Host Awards| World's best host ranking</title>
+    <meta name="description" content="Connect with the top ranked hosts on Airbnb in your market"/>
+    <meta name="keywords" content="host awards, airbnb host ranking"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;800;900&display=swap" rel="stylesheet">
@@ -38,14 +40,13 @@
       .top-margin-2{
         margin-top:2rem;
       }
-
     </style>
   </head>
   <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PR477VK"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 <section class="hero is-small" style="background: url(img/winner.svg); background-size: 470px; background-position: center; background-repeat:no-repeat;">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
@@ -55,39 +56,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a class="navbar-item" href="index.html">
             <img src="img/logo.png" alt="Logo" width="150">
           </a>
-          <span class="navbar-burger" data-target="navbarMenuHeroA">
+          <span class="navbar-burger burger" data-target="navMenu">
             <span><a href="">FAQ</a></span>
-            <span><a href="">Register</a></span>
+            <span><a href="">Pre-register</a></span>
           </span>
         </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
+        <div id="navMenu" class="navbar-menu">
           <div class="navbar-end">
             <a class="navbar-item is-active" href="faq.html">
               FAQ
             </a>
             <span class="navbar-item">
-              <a class="typeform-share link button is-danger is-outlined is-rounded" data-mode="popup" data-size="100" data-hide-headers="true" data-hide-footer="true" target="_blank" href="https://form.typeform.com/to/vllNne6b?typeform-medium=embed-snippet" data-mode="popup" href="https://pie2re.typeform.com/to/vllNne6b">
-                <span>Register</span>
+              <a class="link button is-danger is-outlined is-rounded" href="registration.html">
+                Pre-register
               </a>
             </span>
           </div>
         </div>
       </div>
     </nav>
+    <script type="text/javascript">
+      (function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#'+burger.dataset.target);
+
+        burger.addEventListener('click' , function(){
+          burger.classList.toggle('is-active');
+          nav.classList.toggle('is-active');
+        });
+      })();
+    </script>
   </div>
 
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title is-1">
-        Discover your host ranking
+        Connect with the best ranked hosts
       </h1>
       <h2 class="subtitle is-4">
         The world's largest Airbnb host ranking
       </h2>
-     <a class="typeform-share link" data-mode="popup" data-size="100" data-hide-headers="true" data-hide-footer="true" target="_blank" href="https://form.typeform.com/to/vllNne6b?typeform-medium=embed-snippet" data-mode="popup" href="https://pie2re.typeform.com/to/vllNne6b"><button class="button is-danger is-rounded is-medium">Register now!</button></a> 
+     <a class="link" href="registration.html"><button class="button is-danger is-rounded is-medium">Pre-register now!</button></a> 
 
-    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </div>
 
     <div class="tile is-parent top-margin-2">
@@ -95,7 +106,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="content">
 
         <div class="content">
-          Find out now who are the leading hosts of Airbnb around the world. See their review score and count, check their profiles on Airbnb.<br> <a href="https://pie2re.typeform.com/to/vllNne6b"> Register now</a> to be notified when rankings are available in your area!
+          Pre-register now to be the first verified host in our worldwide ranking and connect with the best hosts in your market.<br> 
         </div>
       </div>
     </article>
